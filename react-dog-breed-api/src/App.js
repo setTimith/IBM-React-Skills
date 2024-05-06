@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 
 const App = (props) => {
   // Define the state for API data
+
   const [breeds, setBreeds] = useState([]);
 
   // Fetching data from API on component mount
